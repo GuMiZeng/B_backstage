@@ -6,10 +6,6 @@ import apiUser from '../api/user'
 
 const routes = [
   {
-    path: '/test',
-    component: (resolve) => require(['@/components/_test'], resolve)
-  },
-  {
     path: '/',
     name: 'Login',
     component: (resolve) => require(['@/components/login'], resolve)

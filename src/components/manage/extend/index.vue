@@ -15,7 +15,7 @@
         <div>
           <can-edit-table :loading="d_loading" refs="table2" v-model="d_data" :columns-list="d_columns" @on-cell-change="handleCellChange" @on-change="extendModify" @on-delete="extendDetele"></can-edit-table>
           <br><br>
-          <Page v-if="d_page.total > 0" :current="d_page.current" :total="d_page.total" :page-size="d_page.size" @on-change="pageSwitch" @on-page-size-change="pageSizeSwitch" show-total show-elevator show-sizer></Page>
+          <Page v-if="d_page.total > 0" :current="d_page.current" :total="d_page.total" :page-size="d_page.size" @on-change="pageSwitch" @on-page-size-change="pageSizeSwitch" show-total  show-sizer></Page>
         </div>
       </Card>
       </i-col>

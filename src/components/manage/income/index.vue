@@ -9,7 +9,7 @@
         :page-size="d_page.size"
         @on-change="pageSwitch($event)"
         @on-page-size-change="pageSizeSwitch($event)"
-        show-total show-elevator show-sizer></Page>
+        show-total show-sizer></Page>
   </div>
 </template>
 <script>
